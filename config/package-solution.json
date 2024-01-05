@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "formexercise-client-side-solution",
+    "id": "b9703233-a5ea-420a-a2f1-118d17743010",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "formexercise description"
+      },
+      "longDescription": {
+        "default": "formexercise description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "formexercise Feature",
+        "description": "The feature that activates elements of the formexercise solution.",
+        "id": "43ebfedf-7aaf-4e30-90a7-88a2c799ef98",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/formexercise.sppkg"
+  }
+}
